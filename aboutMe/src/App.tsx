@@ -1,13 +1,12 @@
-import './index.css'
+import Aside from "./components/aside";
+import "./index.css";
 
 function App() {
-
-
   return (
-    <>
-        <aside/>   
-    </>
-  )
+    <div>
+      <Aside></Aside>
+    </div>
+  );
 }
 
-export default App
+export default App;
