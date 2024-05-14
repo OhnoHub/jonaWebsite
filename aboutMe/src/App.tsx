@@ -1,4 +1,4 @@
-import Aside from "./components/aside";
+import Aside from "./components/Aside";
 import "./index.css";
 
 function App() {

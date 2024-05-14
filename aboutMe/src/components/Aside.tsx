@@ -1,6 +1,6 @@
 import React from "react";
 
-function aside() {
+function Aside() {
   return (
     <>
       <div>GrisCodes</div>
@@ -13,4 +13,4 @@ function aside() {
   );
 }
 
-export default aside;
+export default Aside;
