@@ -19,6 +19,8 @@ const Main = () => {
         1000,
         'I am a Developer',
         1000,
+        'I am not a Robot',
+        1000,
         'I am open to work',
         1000,
         'Feel free to contact me',
