@@ -1,4 +1,3 @@
-import Aside from "./components/Aside";
 import Main from "./components/Main";
 import Projects from "./components/Projects";
 import Sidenav from "./components/Sidenav";
@@ -10,7 +9,6 @@ function App() {
   return (
     <div>
       <Sidenav/>
-      <Aside></Aside>
       <Main/>
       <Work/>
       <Projects/>
