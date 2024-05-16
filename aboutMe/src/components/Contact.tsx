@@ -9,33 +9,36 @@ const Contact = () => {
     const isError = input === ''
   
     return (
-        <div id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+        <div id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 ">
          <form action="" method="POST" encType="multipart/form-data">
 
         <FormControl isRequired>
             <FormLabel>First name</FormLabel>
             <Input placeholder='First name' />
 
-            <FormLabel>Last name</FormLabel>
+            <FormLabel className="pt-4">Last name</FormLabel>
             <Input placeholder='Last name' />
         </FormControl>
 
         <FormControl isInvalid={isError}>
-            <FormLabel>Email</FormLabel>
+            <FormLabel className="pt-4">Email</FormLabel>
                 <Input placeholder="Email" type='email' value={input} onChange={handleInputChange} />
                 {!isError ? (
-                     <FormHelperText>We'll never share your email.</FormHelperText>
+                     <FormHelperText>I'll never share your data.</FormHelperText>
                 ) : (
                     <FormErrorMessage>Email is required.</FormErrorMessage>
                 )}
          </FormControl>
-<FormControl isRequired>
-    <FormLabel>Subject</FormLabel>
-    <Input placeholder="Subject" type="text" name="subject"/>
 
-                <FormLabel>Message</FormLabel>
-                <Textarea name="message" rows={10} placeholder='Please write a Message' />
-</FormControl>
+        <FormControl isRequired>
+            <FormLabel className="pt-4">Subject</FormLabel>
+            <Input placeholder="Subject" type="text" name="subject"/>
+
+            <FormLabel className="pt-4">Message</FormLabel>
+            <Textarea name="message" rows={10} placeholder='Please write a Message' />
+        </FormControl>
+
+        <button className="bg-gray-800 text-gray-100 mt-4 w-full p-4 rounded-lg">Send Message</button>
          </form>
          </div>
          

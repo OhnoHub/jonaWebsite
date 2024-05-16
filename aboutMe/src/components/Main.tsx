@@ -17,9 +17,9 @@ const Main = () => {
         1000, // wait 1s before replacing 
         'I make Websites',
         1000,
-        'I am a Developer',
-        1000,
         'I am not a Robot',
+        1000,
+        'I am a Developer',
         1000,
         'I am open to work',
         1000,
