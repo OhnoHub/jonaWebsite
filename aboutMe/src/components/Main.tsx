@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-[100%] object-cover scale-x-[-1]"
+        className="w-full h-[100vh] object-cover scale-x-[-1]"
         src="img\IMG_20240130_230720_214~3.jpg"
         alt="Schwarz-Weiß Foto des Entwicklers"
       />
