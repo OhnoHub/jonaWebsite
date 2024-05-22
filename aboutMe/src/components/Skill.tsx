@@ -1,19 +1,21 @@
 import React from "react";
 import { FaCss3, FaFigma, FaHtml5 } from "react-icons/fa";
 import {
+  BiLogoGit,
   BiLogoJavascript,
   BiLogoPostgresql,
   BiLogoReact,
   BiLogoTypescript,
 } from "react-icons/bi";
 import {
+  SiExpress,
   SiNextdotjs,
   SiPrettier,
   SiPrisma,
+  SiTailwindcss,
   SiVisualstudiocode,
 } from "react-icons/si";
 import { TbBrandNodejs, TbBrandVite } from "react-icons/tb";
-import { SiExpress } from "react-icons/si";
 
 const Skill = () => {
   return (
@@ -25,6 +27,10 @@ const Skill = () => {
           size={35}
         />
         <FaCss3
+          className="cursor-pointer hover:scale-110 ease-in duration-300"
+          size={35}
+        />
+        <SiTailwindcss
           className="cursor-pointer hover:scale-110 ease-in duration-300"
           size={35}
         />
@@ -67,6 +73,10 @@ const Skill = () => {
       <h1 className="text-2xl font-bold">Misc:</h1>
       <div className="flex gap-4 mt-2 mb-4">
         <FaFigma
+          className="cursor-pointer hover:scale-110 ease-in duration-300"
+          size={35}
+        />
+        <BiLogoGit
           className="cursor-pointer hover:scale-110 ease-in duration-300"
           size={35}
         />

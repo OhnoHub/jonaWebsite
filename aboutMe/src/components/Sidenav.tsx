@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { GiStack } from "react-icons/gi";
+import { HiOutlineSquare3Stack3D } from "react-icons/hi2";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
@@ -35,7 +36,7 @@ const Sidenav = () => {
             href="#skill"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <GiStack size={20} />
+            <HiOutlineSquare3Stack3D size={20} />
             <span className="pl-4">Techstack</span>
           </a>
           <a
@@ -76,7 +77,7 @@ const Sidenav = () => {
               href="#skill"
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
             >
-              <GiStack size={20} />
+              <HiOutlineSquare3Stack3D size={20} />
             </a>
             <a
               href="#projects"
