@@ -1,18 +1,18 @@
 import Main from "./components/Main";
 import Projects from "./components/Projects";
 import Sidenav from "./components/Sidenav";
-import Work from "./components/Work";
 import "./index.css";
-import Contact from "./components/Contact"
+import Contact from "./components/Contact";
+import Skill from "./components/Skill";
 
 function App() {
   return (
     <div>
-      <Sidenav/>
-      <Main/>
-      <Work/>
-      <Projects/>
-      <Contact/>
+      <Sidenav />
+      <Main />
+      <Skill />
+      <Projects />
+      <Contact />
     </div>
   );
 }
