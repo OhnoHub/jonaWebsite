@@ -1,4 +1,3 @@
-import React from "react";
 import { FaCss3, FaHtml5 } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
 
