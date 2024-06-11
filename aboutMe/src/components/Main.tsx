@@ -39,8 +39,23 @@ const Main = () => {
           </h2>
 
           <div className="flex gap-6">
-            <FaLinkedin className="cursor-pointer" size={20} />
-            <FaGithub className="cursor-pointer" size={20} />
+            <a
+              href="https://www.linkedin.com/in/christoph-jendrolak-0706a9238/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <FaLinkedin style={{ cursor: "pointer", fontSize: "24px" }} />
+            </a>
+
+            <a
+              href="https://github.com/OhnoHub"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <FaGithub style={{ cursor: "pointer", fontSize: "24px" }} />
+            </a>
           </div>
         </div>
       </div>
