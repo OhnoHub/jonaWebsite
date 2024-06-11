@@ -6,7 +6,6 @@ import {
   AiOutlineProject,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-import { GiStack } from "react-icons/gi";
 import { HiOutlineSquare3Stack3D } from "react-icons/hi2";
 
 const Sidenav = () => {
