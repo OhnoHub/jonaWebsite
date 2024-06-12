@@ -6,8 +6,8 @@ const Main = () => {
     <div id="main">
       <img
         className="w-full h-[100vh] object-cover scale-x-[-1]"
-        src="src\assets\IMG_20240130_230720_214~3.jpg"
-        alt="Schwarz-Weiß Foto des Entwicklers"
+        src="public/webdev.png"
+        alt="AI generiertes Schwarz-Weiß Foto eines Entwicklersim Stiel der Siebziegerjahre"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
@@ -45,7 +45,10 @@ const Main = () => {
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <FaLinkedin style={{ cursor: "pointer", fontSize: "24px" }} />
+              <FaLinkedin
+                style={{ cursor: "pointer", fontSize: "24px" }}
+                className="justify-center items-center rounded-full shadow-lg box-content shadow-black m-2 p-4 bg-transparent hover:scale-110 ease-in duration-200"
+              />
             </a>
 
             <a
@@ -54,7 +57,10 @@ const Main = () => {
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <FaGithub style={{ cursor: "pointer", fontSize: "24px" }} />
+              <FaGithub
+                style={{ cursor: "pointer", fontSize: "24px" }}
+                className="justify-center items-center rounded-full shadow-lg box-content shadow-black m-2 p-4 bg-transparent hover:scale-110 ease-in duration-200"
+              />
             </a>
           </div>
         </div>
