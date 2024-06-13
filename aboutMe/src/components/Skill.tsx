@@ -19,7 +19,8 @@ import { TbBrandNodejs, TbBrandVite } from "react-icons/tb";
 const Skill = () => {
   return (
     <div id="skill" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-2xl font-bold">Frontend:</h1>
+      <h1 className="text-4xl font-bold text-center pb-8">Techstack</h1>
+      <h2 className="text-2xl font-bold">Frontend:</h2>
       <div className="flex gap-4 mt-2 mb-4">
         <FaHtml5
           className="cursor-pointer hover:scale-110 ease-in duration-300"
