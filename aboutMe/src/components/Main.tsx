@@ -1,3 +1,4 @@
+import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 
@@ -58,6 +59,16 @@ const Main = () => {
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <FaGithub
+                style={{ cursor: "pointer", fontSize: "24px" }}
+                className="justify-center items-center rounded-full shadow-lg box-content shadow-black m-2 p-4 bg-transparent hover:scale-110 ease-in duration-200"
+              />
+            </a>
+
+            <a
+              href="#contact"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <AiOutlineMail
                 style={{ cursor: "pointer", fontSize: "24px" }}
                 className="justify-center items-center rounded-full shadow-lg box-content shadow-black m-2 p-4 bg-transparent hover:scale-110 ease-in duration-200"
               />

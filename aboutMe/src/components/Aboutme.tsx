@@ -10,7 +10,7 @@ const Aboutme = () => {
         gesellschaftliche Strukturen und Bildungsprozesse entwickelt. Kürzlich
         habe ich ein intensives sechsmonatiges Codecamp bei DevHaus in Leipzig
         abgeschlossen, wo ich mein technisches Können erweitert habe. Während
-        des Programms habe ich fundierte Kenntnisse unten angegebenen
+        des Camps habe ich fundierte Kenntnisse in den unten angegebenen
         Technologien und Tools erworben. Diese Erfahrung hat mir nicht nur
         technische Fähigkeiten, sondern auch eine kreative und
         benutzerzentrierte Denkweise vermittelt. Ich freue mich darauf, meine
